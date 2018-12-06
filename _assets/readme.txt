@@ -1,0 +1,1 @@
+The Gather Cafe app is intended for use by cafe admin staff in order to add/delete/edit items for sale at  the Gather Cafe.

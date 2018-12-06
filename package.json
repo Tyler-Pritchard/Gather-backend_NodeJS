@@ -1,0 +1,29 @@
+{
+  "name": "GatherApp-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "knex": "knex"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fantasticThingsToCome/Q2-GatherApp-backend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fantasticThingsToCome/Q2-GatherApp-backend/issues"
+  },
+  "homepage": "https://github.com/fantasticThingsToCome/Q2-GatherApp-backend#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.4",
+    "knex": "^0.15.2",
+    "nodemon": "^1.18.5"
+  }
+}
