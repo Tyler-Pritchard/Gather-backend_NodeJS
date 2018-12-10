@@ -9,7 +9,7 @@ exports.seed = function (knex, Promise) {
           price: 0650,
           description: 'Egg, bacon, cheddar cheese on english muffin',
           type_id: 1,
-          photo_url: '../public/images/breakfastsandwich.jpg'
+          photo_url: 'localhost:3001/images/breakfastsandwich.jpg'
         },
         {
           name: 'B.L.T',

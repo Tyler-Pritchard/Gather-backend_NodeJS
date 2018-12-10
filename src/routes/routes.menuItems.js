@@ -17,4 +17,6 @@ router.patch('/', ctrl.updateItem)
 // //delete item
 router.delete('/:id', ctrl.destroyItem)
 
+// const AuthController = require('../controllers/AuthController')
+
 module.exports = router;
