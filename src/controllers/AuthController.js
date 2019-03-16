@@ -1,3 +1,5 @@
+//TODO Debug auth routes, queries, controllers
+
 // CREATE LINK TO SEPARATE PORTAL FOR ADMIN
 
 // const express = require('express')

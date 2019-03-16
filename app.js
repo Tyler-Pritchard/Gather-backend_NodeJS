@@ -37,7 +37,6 @@ app.listen(port, console.log(`successfully running backend on ${port}`))
 //   console.log( 'Node server is running on port ' + app.get( 'port' ));
 //   });
 
-//DELETE table for 'menuItems'
 exports.down = function (knex, Promise) {
   return knex.schema.dropTable('menuItems')
 };
