@@ -51,7 +51,6 @@ const updateItem = (request, response, next) => {
     })
 }
 
-
 const destroyItem = (request, response, next) => {
     const {
         id
