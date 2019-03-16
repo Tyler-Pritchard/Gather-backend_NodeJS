@@ -1,4 +1,3 @@
-//Access 'menus' table
 const knex = require('./db')
 
 getAllMenuItems = () => {

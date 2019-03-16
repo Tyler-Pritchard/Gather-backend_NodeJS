@@ -2,8 +2,7 @@ const menuItemsQuery = require('../queries/queries.menuItems')
 
 const getAllMenuItems = () => {
     return menuItemsQuery.getAllMenuItems().then(result => {
-        return result.length < 1 ?
-            {
+        return result.length < 1 ? {
                 error: 'error retreiving menu items',
                 status: 404
             } :
@@ -18,8 +17,7 @@ const getSingleItem = (id) => {
 
 const createItem = (itemData) => {
     return menuItemsQuery.createItem(itemData).then(result => {
-        return result.length < 1 ?
-            {
+        return result.length < 1 ? {
                 error: 'error creating menu item',
                 status: 404
             } :
@@ -29,8 +27,7 @@ const createItem = (itemData) => {
 
 const updateItem = (newItem) => {
     return menuItemsQuery.updateItem(newItem).then(result => {
-        return result.length < 1 ?
-            {
+        return result.length < 1 ? {
                 error: 'error retreiving updating menu item',
                 status: 404
             } :
@@ -41,8 +38,7 @@ const updateItem = (newItem) => {
 const destroyItem = (id) => {
     const item = menuItemsQuery.destroyItem(id)
     return item.then(result => {
-        return result.length < 1 ?
-            {
+        return result.length < 1 ? {
                 error: 'error deleting users',
                 status: 404
             } :

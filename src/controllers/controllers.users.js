@@ -51,7 +51,6 @@ const updateUser = (request, response, next) => {
     })
 }
 
-
 const destroyUser = (request, response, next) => {
     const {
         id
