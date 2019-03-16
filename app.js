@@ -20,8 +20,6 @@ const menuItemRoutes = require('./src/routes/routes.menuItems');
 // const menuItemOrderRoutes = require('./src/routes/routes.menuItemOrders');
 
 
-
-
 /**
  * Set up Routes
  */

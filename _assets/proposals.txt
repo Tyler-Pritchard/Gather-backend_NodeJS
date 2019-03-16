@@ -1,3 +1,0 @@
-1.  Proposal 1 is to build the backend api for the Gather cafe menu ordering app.  It will solve the problem of creating a menu from which the cafe administration may create a menu.  The primary users of my website will be admins for the Gather cafe.  API/AJAX/JSON, HTML, CSS, JS 
-
-2.  Proposal 2 is the clock which tells absolute relative time, which is the concept that the time of day is based on the user's location and time of year.  High noon will always be at the halfway point between sunrise and sunset.
