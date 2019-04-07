@@ -1,11 +1,8 @@
-exports.seed = function(knex, Promise) {
-  // Deletes ALL existing entries
+exports.seed = function (knex, Promise) {
   return knex("menuItems")
     .del()
     .then(() => {
-      // Inserts seed entries
-      return knex("menuItems").insert([
-        {
+      return knex("menuItems").insert([{
           name: "Breakfast Sandwich",
           price: 0650,
           description: "Egg, bacon, cheddar cheese on english muffin",
@@ -15,8 +12,7 @@ exports.seed = function(knex, Promise) {
         {
           name: "B.L.T",
           price: 1100,
-          description:
-            "Bacon, greens, tomato jam, spicy aioli on toasted wheat bread",
+          description: "Bacon, greens, tomato jam, spicy aioli on toasted wheat bread",
           type_id: 2,
           photo_url: "https://i.imgur.com/DeANTDl.jpg"
         },
