@@ -1,6 +1,7 @@
 const express = require('express')
 const router = express.Router()
 const ctrl = require('../controllers/controllers.menuItems')
+const AuthController = require('../controllers/AuthController')
 
 router.get('/', ctrl.getAllMenuItems)
 
@@ -12,6 +13,5 @@ router.patch('/', ctrl.updateItem)
 
 router.delete('/:id', ctrl.destroyItem)
 
-// const AuthController = require('../controllers/AuthController')
 
 module.exports = router;
